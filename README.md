@@ -5,3 +5,9 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 ## Recommended IDE Setup
 
 - [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+
+## Why this UI/UX implementation is the best?
+- Simple modern design and good color combination
+- User can see the current weather of the city
+- User can see the places like parks, restaurants, etc. which they are planning to visit
+- Straightforward and user friendly
