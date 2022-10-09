@@ -1,0 +1,27 @@
+@media screen and (max-width: 768px) {
+  .container {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .locations > section {
+    flex-direction: column;
+  }
+
+  .locations > section > .card {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+}

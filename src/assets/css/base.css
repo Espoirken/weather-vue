@@ -1,0 +1,81 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --primary: #e02f90;
+  --info: #ffdef1;
+  --danger: #dc3545;
+
+  /* Fonts colors */
+  --placeholder: #6a6a6a;
+  --font-primary: #48283a;
+  --font-highlight: var(--primary);
+
+  /* Border radius */
+  --base-radius: 0.8rem;
+  --x-def-radius: var(--base-radius);
+  --y-def-radius: var(--base-radius);
+  --xy-def-radius: var(--base-radius);
+  --font-30px: 3rem;
+  --font-16px: 1.6rem;
+  --font-24px: 2.4rem;
+
+  /* Gray */
+  --light-gray: #f2f2f2;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+  line-height: 1.5em;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  color: var(--font-primary);
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-size: 1.6rem;
+  font-family: "Nunito", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #343d4b;
+}
+
+a {
+  text-decoration: none;
+  color: var(--font-primary);
+}
+
+input,
+button {
+  border-radius: var(--base-radius);
+  font-family: "Nunito", sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.container {
+  padding-left: 10rem;
+}
+
+.wrap {
+  flex-wrap: wrap !important;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
